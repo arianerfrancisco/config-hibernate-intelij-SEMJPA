@@ -11,12 +11,18 @@ public class Exemplo {
 
         Session session = sf.getCurrentSession();
 
-        Produto p = new Produto();
-        p.setNome("p1");
+        Produto p1 = new Produto();
+        p1.setNome("p1");
         session.beginTransaction();
-        session.save(p);
+        session.save(p1);
+        System.out.println(p1.getId());
+
+        Produto p2 = new Produto();
+        p2.setNome("p2");
+        session.save(p2);
         session.getTransaction().commit();
 
-        System.out.println(p.getId());
+        System.out.println(p2.getId());
+
     }
 }
