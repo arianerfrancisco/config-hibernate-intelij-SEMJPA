@@ -9,7 +9,7 @@
   
 - Seu papel é fazer este mapeamento entre estas classes e as tabelas do banco. Desta forma é retirada do programador a responsabilidade da parte relacional do BD da aplicação.
   
-🚨 Para aplicações WEB utiliza-se APACHE TOMCAT 8.5.
+🚨 Para aplicações WEB com hibernate nativo utiliza-se APACHE TOMCAT 8.5.
  
 <h2> 🟢 Estrutura projeto IDE Eclipse </h2>
   
